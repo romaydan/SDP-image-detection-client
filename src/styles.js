@@ -7,19 +7,22 @@ export default makeStyles({
     flexDirection: 'row',
     justifyContent: 'space-between',
     backgroundColor: '#1d2328',
-    color: '#ea9164'
+    color: '#ea9164',
   },
   logoImage: {
-    marginTop: '7px'
+    marginTop: '7px',
   },
   whiteText: {
-    color: '#EEF0F1'
+    color: '#EEF0F1',
   },
   title: {
-    fontWeight: '300'
+    fontWeight: '300',
   },
   tab: {
     fontSize: '18px',
-    marginTop: '3px'
-  }
+    marginTop: '3px',
+  },
+  card: {
+    backgroundColor: '#1d2328',
+  },
 });

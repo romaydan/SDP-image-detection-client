@@ -6,3 +6,7 @@ body {
   background-color: #1d2328;
   color: #ea9164;
 }
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}

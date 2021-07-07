@@ -30,7 +30,6 @@ export const getPosts = () => async (dispach) => {
 
     const data = await mapToViewModel(json, images);
 
-    console.log(data);
     dispach({ type: FETCH_ALL, payload: data });
   } catch (error) {
     console.log(error.message);
